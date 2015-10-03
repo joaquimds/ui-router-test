@@ -2,7 +2,7 @@ var myApp = angular.module('ui-sref-test', ['ui.router']);
 
 myApp.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
 	
- // $locationProvider.html5Mode(true);
+ $locationProvider.html5Mode(true);
   //
   // For any unmatched url, redirect to /
   $urlRouterProvider.otherwise("/state2");
